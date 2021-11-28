@@ -1,0 +1,20 @@
+npm init
+npm install webpack --save-dev webpack webpack-cli 
+
+export dependencies
+then 
+import dependencies
+
+  "scripts": {
+    "build": "webpack ./src/js/app.js ./dist/main.js"
+  },
+
+update mode: https://webpack.js.org/configuration/mode/
+
+module.exports = {
+    mode: 'development',
+  };
+  
+
+npm run build
+
